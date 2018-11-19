@@ -73,7 +73,7 @@ fi
 # export cloud_utils puppet module
 ##########################################
 
-git_loc="${git_url}/hysds/puppet-cloud_utils"
+git_loc="${git_url}/earthobservatory-az/puppet-cloud_utils"
 mod_dir=$mods_dir/cloud_utils
 site_pp=$mod_dir/site.pp
 
@@ -87,7 +87,7 @@ fi
 # export verdi puppet module
 ##########################################
 
-git_loc="${git_url}/hysds/puppet-verdi"
+git_loc="${git_url}/d3lta-v/puppet-verdi"
 mod_dir=$mods_dir/verdi
 site_pp=$mod_dir/site.pp
 
