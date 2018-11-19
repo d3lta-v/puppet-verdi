@@ -73,7 +73,7 @@ fi
 # export cloud_utils puppet module
 ##########################################
 
-git_loc="${git_url}/earthobservatory-az/puppet-cloud_utils"
+git_loc="https://bitbucket.org/nvgdevteam/puppet-cloud_utils"
 mod_dir=$mods_dir/cloud_utils
 site_pp=$mod_dir/site.pp
 
