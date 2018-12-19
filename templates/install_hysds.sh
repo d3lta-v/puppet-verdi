@@ -87,7 +87,7 @@ cd $OPS
 GITHUB_REPO=osaka
 PACKAGE=osaka
 if [ ! -d "$OPS/$PACKAGE" ]; then
-  git clone ${GIT_URL}/hysds/${GITHUB_REPO}.git $PACKAGE
+  git clone ${GIT_URL}/d3lta-v/${GITHUB_REPO}.git $PACKAGE
 fi
 cd $OPS/$PACKAGE
 pip install -U pyasn1
