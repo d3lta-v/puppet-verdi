@@ -73,7 +73,7 @@ fi
 # export verdi puppet module
 ##########################################
 
-git_loc="${git_url}/hysds/puppet-verdi"
+git_loc="${git_url}/d3lta-v/puppet-verdi"
 mod_dir=$mods_dir/verdi
 site_pp=$mod_dir/site.pp
 
